@@ -13,4 +13,3 @@ session = PwnySession()
 session.open(client)
 
 session.download('/etc/passwd', '/tmp')
-session.upload('/tmp/passwd', '/tmp/sas')
